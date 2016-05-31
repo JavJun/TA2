@@ -3,3 +3,8 @@ c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvo\bin\Debug\
 c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvo\obj\Debug\TestEvo.csprojResolveAssemblyReference.cache
 c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvo\obj\Debug\TestEvo.dll
 c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvo\obj\Debug\TestEvo.pdb
+C:\20161\EVO\TA2\TestEvo\bin\Debug\TestEvo.dll
+C:\20161\EVO\TA2\TestEvo\bin\Debug\TestEvo.pdb
+C:\20161\EVO\TA2\TestEvo\obj\Debug\TestEvo.csprojResolveAssemblyReference.cache
+C:\20161\EVO\TA2\TestEvo\obj\Debug\TestEvo.dll
+C:\20161\EVO\TA2\TestEvo\obj\Debug\TestEvo.pdb

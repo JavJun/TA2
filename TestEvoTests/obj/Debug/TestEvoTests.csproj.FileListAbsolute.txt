@@ -6,3 +6,11 @@ c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvoTests\bin\D
 c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvoTests\obj\Debug\TestEvoTests.csprojResolveAssemblyReference.cache
 c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvoTests\obj\Debug\TestEvoTests.dll
 c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvoTests\obj\Debug\TestEvoTests.pdb
+C:\20161\EVO\TA2\TestEvoTests\bin\Debug\TestEvoTests.dll
+C:\20161\EVO\TA2\TestEvoTests\bin\Debug\TestEvoTests.pdb
+C:\20161\EVO\TA2\TestEvoTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\20161\EVO\TA2\TestEvoTests\bin\Debug\TestEvo.dll
+C:\20161\EVO\TA2\TestEvoTests\bin\Debug\TestEvo.pdb
+C:\20161\EVO\TA2\TestEvoTests\obj\Debug\TestEvoTests.csprojResolveAssemblyReference.cache
+C:\20161\EVO\TA2\TestEvoTests\obj\Debug\TestEvoTests.dll
+C:\20161\EVO\TA2\TestEvoTests\obj\Debug\TestEvoTests.pdb
