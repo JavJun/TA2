@@ -1,0 +1,5 @@
+c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvo\bin\Debug\TestEvo.dll
+c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvo\bin\Debug\TestEvo.pdb
+c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvo\obj\Debug\TestEvo.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvo\obj\Debug\TestEvo.dll
+c:\users\javier\documents\visual studio 2015\Projects\TestEvo\TestEvo\obj\Debug\TestEvo.pdb
