@@ -29,21 +29,8 @@ namespace TestEvo.Tests
             string resultado = prueba.multiplo(25, 2);
             Assert.AreEqual("No Multiplo", resultado);
         }
-        [TestMethod()]
-        public void multiploTest2()
-        {
-            Class1 prueba = new Class1();
-            string resultado = prueba.multiplo(45, 9);
-            Assert.AreEqual("Multiplo", resultado);
-        }
 
-        [TestMethod()]
-        public void compararTest()
-        {
-            Class1 prueba = new Class1();
-            bool resultado = prueba.comparar(25, 2);
-            Assert.AreEqual(false, resultado);
-        }
+        
         //diferentes
         [TestMethod()]
         public void compararTest1()
@@ -59,24 +46,7 @@ namespace TestEvo.Tests
             string resultado = prueba.multiplo(40, 9);
             Assert.AreNotEqual("No Multiplo", resultado);
         }
-
-        [TestMethod()]
-        public void factorialTest1()
-        {
-            Class1 prueba = new Class1();
-            double resultado = prueba.factorial(3);
-
-            Assert.AreNotEqual(7, resultado);
-        }
-
-        [TestMethod()]
-        public void raizCuadradaTest()
-        {
-            Class1 prueba = new Class1();
-            double resultado = prueba.diferenciaRaizCuadrada(9,5);
-
-            Assert.AreNotEqual(3, resultado);
-        }
+        
         //BOOLEAN
         [TestMethod()]
         public void compararTest2()
@@ -85,18 +55,33 @@ namespace TestEvo.Tests
 
             Assert.IsTrue(prueba.comparar(5, 20));
         }
-
+        //excepciones
         [TestMethod()]
-        [ExpectedException(typeof(System.ArgumentException))]
-        public void raizCuadradaTest1()
+        [ExpectedException(typeof(ArgumentException))]
+        public void diferencia()
         {
             Class1 prueba = new Class1();
-            double resultado = 0;
-              resultado =  prueba.diferenciaRaizCuadrada(5, 6);
+            prueba.diferenciaRaizCuadrada(3, 7);
 
+        }
+        [TestMethod()]
+        [ExpectedException(typeof(ArgumentException))]
+        public void personaCreada()
+        {
+            Persona prueba = new Persona();
+            prueba.personaCreada();
 
         }
 
+        //objeto
+        [TestMethod()]
+        public void persona()
+        {
+            Persona per = new Persona("juan",'m');
+            Persona per2 = new Persona("Jaime", 'm');
+            Assert.AreNotSame(per2, per);
+        }
         
+
     }
 }

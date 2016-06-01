@@ -34,20 +34,43 @@ namespace TestEvo
         }
         public double diferenciaRaizCuadrada(double a,double b)
         {
-            try
-            {
+           
+            
                 double modulo = 0;
                 double resul = a - b;
-
+            if (resul >= 0)
+            {
                 modulo = Math.Sqrt(resul);
-
                 return modulo;
             }
-            catch(Exception ex)
+            else
+
+                throw new ArgumentException( "La diferencia es negatica");
+        }
+       
+    
+    }
+    public class Persona
+    {
+        private string nombre;
+        private char sexo;
+        public Persona(string nombre,char sexo)
+        {
+            this.nombre = nombre;
+            this.sexo = sexo;
+        }
+        public Persona()
+        {
+            nombre = "";
+            sexo = '0';
+        }
+        public void personaCreada()
+        {
+            if (sexo == '0' || nombre == "")
             {
-                System.ArgumentException argEx = new ArgumentException("La diferencia de los numeros es menor que 0");
-                throw argEx;
+                throw new ArgumentException("No agrego el nombre y tampoco el sexo");
             }
+
         }
     }
 }
