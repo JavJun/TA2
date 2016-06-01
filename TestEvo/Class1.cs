@@ -61,12 +61,16 @@ namespace TestEvo
         }
         public Persona()
         {
-            nombre = "";
+            nombre = null;
             sexo = '0';
+        }
+        public string getnombre()
+        {
+            return nombre;
         }
         public void personaCreada()
         {
-            if (sexo == '0' || nombre == "")
+            if (sexo == '0' || nombre == null)
             {
                 throw new ArgumentException("No agrego el nombre y tampoco el sexo");
             }

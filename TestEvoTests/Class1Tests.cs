@@ -43,7 +43,7 @@ namespace TestEvo.Tests
         public void multiploTest3()
         {
             Class1 prueba = new Class1();
-            string resultado = prueba.multiplo(40, 9);
+            string resultado = prueba.multiplo(45, 9);
             Assert.AreNotEqual("No Multiplo", resultado);
         }
         
@@ -81,7 +81,15 @@ namespace TestEvo.Tests
             Persona per2 = new Persona("Jaime", 'm');
             Assert.AreNotSame(per2, per);
         }
-        
+        //nulo
+        [TestMethod()]
+        public void persona1()
+        {
+            Persona per = new Persona();
+            
+            Assert.IsNull(per.getnombre());
+        }
+
 
     }
 }
