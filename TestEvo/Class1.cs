@@ -47,7 +47,16 @@ namespace TestEvo
 
                 throw new ArgumentException( "La diferencia es negatica");
         }
-       
+       public List<int> numeroDivisores(int num)
+        {
+            List<int> div = new List<int>();
+            for (int i = 1; i <= num; i++)
+            {
+                if (num % i == 0)
+                    div.Add(i);
+            }
+            return div;
+        }
     
     }
     public class Persona

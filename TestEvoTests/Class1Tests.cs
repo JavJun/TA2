@@ -81,6 +81,13 @@ namespace TestEvo.Tests
             Persona per2 = new Persona("Jaime", 'm');
             Assert.AreNotSame(per2, per);
         }
+        [TestMethod()]
+        public void getNombreTest()
+        {
+            Persona per = new Persona("juan", 'm');
+            
+            Assert.IsInstanceOfType(per, per.GetType());
+        }
         //nulo
         [TestMethod()]
         public void persona1()
@@ -89,7 +96,23 @@ namespace TestEvo.Tests
             
             Assert.IsNull(per.getnombre());
         }
+        //List
+        [TestMethod()]
+        public void Lista()
+        {
+            Class1 pru = new Class1();
+            
+            
+            Assert.AreEqual(2, pru.numeroDivisores(5).Count);
+        }
+        [TestMethod()]
+        public void Lista1()
+        {
+            Class1 pru = new Class1();
 
+
+            Assert.AreNotEqual(5, pru.numeroDivisores(5).Count);
+        }
 
     }
 }
